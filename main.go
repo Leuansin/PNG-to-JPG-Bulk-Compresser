@@ -14,8 +14,8 @@ import (
 )
 
 func main() {
-	inputDir := flag.String("in", "./input", "Carpeta de entrada con PNG")
-	outputDir := flag.String("out", "./output", "Carpeta de salida para JPG")
+	inputDir := flag.String("in", "./inputs", "Carpeta de entrada con PNG")
+	outputDir := flag.String("out", "./outputs", "Carpeta de salida para JPG")
 	quality := flag.Int("q", 80, "Calidad JPG (1-100, recomendado 70-85)")
 	flag.Parse()
 
